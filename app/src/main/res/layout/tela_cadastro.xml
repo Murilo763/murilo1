@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cadastro_if_cadastro">
+
+    <TextView
+        android:id="@+id/cadastro_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="159dp"
+        android:text="Cadastro"
+        android:textColor="#FF5722"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/campo_email"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/campo_user"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="5dp"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/campo_senha2"
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/campo_email"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="6dp"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/campo_user"
+        android:layout_width="392dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cadastro_title"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:drawableLeft="@android:drawable/ic_menu_myplaces"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/botao_cadastro"
+        android:layout_width="398dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/campo_senha2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="7dp"
+        android:backgroundTint="#FF5722"
+        android:text="Cadastrar" />
+</RelativeLayout>
