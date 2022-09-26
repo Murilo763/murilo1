@@ -65,8 +65,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/campo_senha2"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="87dp"
-        android:layout_marginEnd="7dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="4dp"
         android:backgroundTint="#FF5722"
         android:text="Cadastrar" />
 </RelativeLayout>

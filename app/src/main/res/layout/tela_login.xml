@@ -13,7 +13,7 @@
         android:layout_marginTop="30dp"
         android:text="LOGIN"
         android:textColor="#FF5722"
-        android:textSize="34sp" />
+        android:textSize="48sp" />
 
     <EditText
         android:id="@+id/campo_login2"
